@@ -1,3 +1,5 @@
+// Created the Plan in create_plan.js file and then using the same Plan ID here
+
 const fs = require("fs");
 const axios = require("axios");
 const fsPromises = require("fs/promises"); // Promises-based file system API
@@ -136,3 +138,8 @@ const createSubscription = async () => {
 
 // Call the function to create the subscription
 createSubscription();
+
+
+//Once the Subscription session ID is created use below link to redirect the user to auth page. 
+// https://codepen.io/Harshith-Kanigalpula-the-styleful/pen/MWMJWeN
+// Merchant need to implement the same JS SDK on their react JS code as well so that our SDK handles the Session ID.
