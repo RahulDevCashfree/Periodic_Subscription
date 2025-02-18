@@ -60,7 +60,7 @@ const subscriptionFirstChargeTime =
 // Define the subscription data
 const subscriptionData = {
   plan_details: {
-    plan_id: planId, // Use the fetched plan_id
+    plan_id: planId, // Use the fetched plan_id or pass the plan ID here directly if you want to create subscription + Plan in same API call
     plan_amount: 2000,
     plan_name: "Prod_Test_1",
     plan_type: "PERIODIC",
